@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+label, input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+button {
+    margin-top: 5px;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: paleturquoise;
+}

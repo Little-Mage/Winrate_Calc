@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Winrate Calculator</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<h1>Winrate Calculator</h1>
+<p style="margin-bottom: 3px;">v0.9</p>
+
+<label for="coin">Desired winrate:</label><br>
+<input type="text" id="d" name="d" maxlength='5' required>
+<br>
+<label for="t">Wins:</label><br>
+<input type="text" id="w" name="w" maxlength='4' required>
+<br>
+<label for="s">Losses:</label><br>
+<input type="text" id="l" name="l" maxlength='4' required>
+<br>
+<button onclick="winrateCalc()">Calc</button>
+
+<p id='r1'>Wins in a row:</p>
+<p id='r2'>Record:</p>
+<p id='r3'>Percent:</p>
+
+<script src="winrate.js"></script>
+</body>
+
+</html>
