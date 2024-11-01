@@ -1,5 +1,5 @@
 function winrateCalc() {
-    const desiredWinRate = parseFloat(document.getElementById("d").value);
+    const desiredWinRate = parseFloat(document.getElementById("d").value)/1000;
     const wins = parseInt(document.getElementById("w").value);
     const losses = parseInt(document.getElementById("l").value);
 
